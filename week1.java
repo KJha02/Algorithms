@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class week1{
   public static Float findMax(float[] array){
     int n = array.length;
@@ -14,7 +13,7 @@ public class week1{
     int n = array.length;
     float min = array[0];
     for (int i = 1; i<n; i++) {
-      if (array[i] < min) { 
+      if (array[i] < min) {
         min = array[i];
       }
     }
